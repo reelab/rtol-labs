@@ -31,7 +31,7 @@ You now have a basic Python 3 installation. To use it, you should create a new *
 Create an environment to use throughout the quarter -- let's call it `rtol`. Open a new Terminal and type:
 
 ```bash
-conda create -n rtol jupyter biopython r-irkernel
+conda create -n rtol jupyter biopython pandas r-irkernel
 ```
 
 This creates the `rtol` environment and installs into it the `jupyter`, `biopython`, and `r-irkernel` packages (and their dependencies). To use the environment it must be activated:
