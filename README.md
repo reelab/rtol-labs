@@ -34,7 +34,7 @@ Create an environment to use throughout the quarter -- let's call it `rtol`. Ope
 conda create -n rtol jupyter biopython pandas r-irkernel
 ```
 
-This creates the `rtol` environment and installs into it the `jupyter`, `biopython`, and `r-irkernel` packages (and their dependencies). To use the environment it must be activated:
+This creates the `rtol` environment and installs into it the `jupyter`, `biopython`, `pandas`, and `r-irkernel` packages (and their dependencies). To use the environment it must be activated:
 
 ```bash
 source activate rtol
